@@ -1,0 +1,10 @@
+{
+  "minimum-stability": "dev",
+  "require": {
+    "marvin/marvin": "0.0.x-dev",
+    "symfony/form": "2.5.x-dev"
+  },
+  "scripts": {
+    "post-package-install": "Marvin\\Marvin\\Install::postPackageInstall"
+  }
+}
